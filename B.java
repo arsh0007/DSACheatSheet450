@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class B {
   public static void maxMini(int [] arr){
+    //Using Sorting
     Arrays.sort(arr);
     int min = arr[0];
     int max = arr[arr.length-1];
